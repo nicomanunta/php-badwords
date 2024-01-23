@@ -16,22 +16,22 @@ $nuovo_paragrafo = str_replace($censurare, "***", $paragrafo,)
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container mt-5">
         <div class="row">
             <div class="col-12">
                 <h2>Paragrafo:</h2>
                 <span><?php echo $paragrafo?> </span>
                 <div class="my-4">
                     <h6>Lunghezza paragrafo:</h6>
-                    <span><?php echo strlen($paragrafo)?></span>
+                    <span><?php echo strlen($paragrafo)?> battute</span>
                 </div>
             </div>
             <div class="col-12">
                 <h2>Paragrafo nuovo:</h2>
                 <span><?php echo $nuovo_paragrafo?> </span>
                 <div class="my-4">
-                    <h6>Lunghezza paragrafo nuovo</h6>
-                    <span><?php echo strlen($nuovo_paragrafo)?></span>
+                    <h6>Lunghezza paragrafo nuovo:</h6>
+                    <span><?php echo strlen($nuovo_paragrafo)?> battute</span>
                 </div>
             </div>
 
